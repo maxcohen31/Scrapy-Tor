@@ -75,3 +75,6 @@ service privoxy start
 ```
 ## TODO
 - ItemLoader
+
+## Sources
+[set up Tor and Privoxy](https://github.com/FrackingAnalysis/PyTorStemPrivoxy)
