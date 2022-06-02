@@ -1,9 +1,19 @@
 # Scrapy/Tor Web Scraper
-Web scraper using Scrapy framework along with Tor network
+Web scraper using Scrapy framework along with Tor network.
+When we combine Scrapy with Tor, we can have more control over our crawler privacy. We already know that Scrapy can work with proxy server however since Scrapy doesn’t work directly with SOCKS proxy, things can work out if we can introduce a http proxy server as an intermediate between Scrapy and Tor which can also speak to Tor using SOCKS. SOCKS protocol is a lower level protocol than http and it is more transparent in a sense that it doesn’t add extra info like http-header.
+
+## Site
+luxuryestate.com
+
+## Tools
+**TOR**: Is an abbreviation of "The Onion Project", a project that seeks to create a low latency distributed communication network above the Internet layer so that the data of the users who use it will be never reveal, thus maintaining a private and anonymous network.
+**Stem**: is a Python controller library for TOR.
+**Privoxy**: Privoxy is a non-caching web proxy with advanced filtering capabilities for enhancing privacy, modifying web page data and HTTP headers, controlling access, and removing ads and other obnoxious Internet junk. Privoxy has a flexible configuration and can be customized to suit individual needs and tastes. It has application for both stand-alone systems and multi-user networks.
+
 
 ## Setup a virtual enviroment
 ```bash
-virtualenv amazonscraper ; source bin/activate
+virtualenv housespider ; source bin/activate
 pip install scrapy
 ```
 ## Directory Structure
@@ -39,7 +49,7 @@ pip install scrapy
 ## Go to the project directory
 
 ```bash
-  cd Amazon-book-scraper
+  cd Scrapy-Tor
   cd housespider/housespider/spiders/
 ```
 
