@@ -24,6 +24,13 @@ pip install stem
 pip install scrapy-fake-useragent
 pip install request
 ```
+
+# Start Tor and Privoxy services
+```bash
+service tor start
+service privoxy start
+```
+
 ## Directory Structure
 ```bash
 .
