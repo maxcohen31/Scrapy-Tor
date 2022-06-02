@@ -1,4 +1,4 @@
-# Scrapy/Tor Web Scraper
+# Scrapy/Tor Web Scraper using Privoxy
 Web scraper using Scrapy framework along with Tor network.
 When we combine Scrapy with Tor, we can have more control over our crawler privacy. We already know that Scrapy can work with proxy server however since Scrapy doesn’t work directly with SOCKS proxy, things can work out if we can introduce a http proxy server as an intermediate between Scrapy and Tor which can also speak to Tor using SOCKS. SOCKS protocol is a lower level protocol than http and it is more transparent in a sense that it doesn’t add extra info like http-header.
 
@@ -16,7 +16,10 @@ luxuryestate.com
 ## Setup a virtual enviroment
 ```bash
 virtualenv housespider ; source bin/activate
-pip install scrapy
+pip install scrapy 
+pip install stem
+pip install scrapy-fake-useragent
+pip install request
 ```
 ## Directory Structure
 ```bash
