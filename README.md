@@ -7,7 +7,9 @@ luxuryestate.com
 
 ## Tools
 **TOR**: Is an abbreviation of "The Onion Project", a project that seeks to create a low latency distributed communication network above the Internet layer so that the data of the users who use it will be never reveal, thus maintaining a private and anonymous network.
+
 **Stem**: is a Python controller library for TOR.
+
 **Privoxy**: Privoxy is a non-caching web proxy with advanced filtering capabilities for enhancing privacy, modifying web page data and HTTP headers, controlling access, and removing ads and other obnoxious Internet junk. Privoxy has a flexible configuration and can be customized to suit individual needs and tastes. It has application for both stand-alone systems and multi-user networks.
 
 
