@@ -7,6 +7,7 @@ virtualenv amazonscraper ; source bin/activate
 pip install scrapy
 ```
 ## Directory Structure
+```bash
 .
 ├── README.md
 └── Scrapy-With-Tor
@@ -34,7 +35,7 @@ pip install scrapy
         │           ├── luxury_spider.cpython-39.pyc
         │           └── tryip.cpython-39.pyc
         └── scrapy.cfg
-
+```
 ## Go to the project directory
 
 ```bash
